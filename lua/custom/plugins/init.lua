@@ -2,4 +2,11 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  {
+    'github/copilot.vim',
+    config = function()
+      vim.cmd 'Copilot enable'
+    end,
+  },
+}
