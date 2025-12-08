@@ -9,4 +9,7 @@ return {
       vim.cmd 'Copilot enable'
     end,
   },
+  {
+    'christoomey/vim-tmux-navigator',
+  },
 }
