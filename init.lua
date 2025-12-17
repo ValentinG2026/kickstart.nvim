@@ -84,6 +84,10 @@ I hope you enjoy your Neovim journey,
 P.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
+--Blinking cursor
+vim.opt.guicursor = 'n-v-c:block-Cursor/lCursor-blinkon1'
+vim.opt.guicursor = 'n-v-c:block-blinkwait700-blinkon400-blinkoff250'
+
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
